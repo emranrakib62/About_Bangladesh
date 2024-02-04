@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#33f0ff">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="About Bangldesh"
+    android:textSize="40sp"
+    android:textStyle="bold"
+    android:textAlignment="center"
+    />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+       android:src="@drawable/imagee"
+/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="30dp"
+    android:textStyle="normal"
+    android:textAlignment="center" android:text="haka is the capital and largest city of Bangladesh. With its colorful history and rich cultural traditions, Dhaka is known the world over as the city of mosques and muslin. Its fame attracted travelers from far and near throughout the ages. Today it has grown into a mega city of about 8.5 million people, with an area of about 1353 sq. km. becoming the hub of the nation's industrial, commercial, cultural, educational and political activities.
+
+Dhaka is located in the geographic center of the country. It is in the great deltaic region of the Ganges and Brahmaputra rivers. The city is within the monsoon climate zone, with an annual average temperature of 25 deg C (77 deg F) and monthly means varying between 18 deg C (64 deg F) in January and 29 deg C (84 deg F) in August. Nearly 80% of the annual average rainfall of 1,854 mm (73 in) occurs between May and September."
+
+/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/bangladesh"
+                />
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </ScrollView>
+
+
+
+
+
+
+</LinearLayout>
